@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 2vmax 3vmax;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > h1 {
+    font: 900 2.5vmax serif;
+    letter-spacing: 3px;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;                                                                                                                                                  
+    font-weight: 200;
+    font: 200 1vmax "serif";
+}
+nav > ul > li {
+    padding: 0 1vmax;
+}
+
+nav > span {
+    font: 200 1vmax "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > span > i {
+    font-size: 2vmax;
+}
+
+
+
+.section1 {
+    width: 100%;
+    height: 70%;
+    margin-top: 5vmax;
+    display: flex;
+}
+.s1-left, .s1-right{
+    width: 50%;
+    height: 100%;
+}
+.s1-left{
+    padding-right: 0vmax;
+}
+.s1-left h1{
+    font: 400 7vmax serif;
+    line-height: 7vmax;
+    color: white;
+    margin-bottom: 3vmax;
+}
+
+.s1-left img{
+    height: 4.5vmax;
+    width: 4.5vmax;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+.s1-left img:nth-child(2){
+    transform: translateX(-3vmax);
+}
+.s1-left img:nth-child(3) {
+    transform: translateX(-6vmax);
+}
+
+.s1-left span{
+    display: inline-block;
+    transform: translateX(-7vmax);
+}
+
+.s1-box{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vmax;
+    font: 200 1vmax serif;
+}
+
+.s1-right{
+    background-color: #b3a0cf;
+    margin-left: 5vmax;
+    clip-path: polygon(78% 0, 78% 11%, 100% 11%, 100% 100%, 0 100%, 0 0, 51% 0);
+    border-radius: 2vmax;
+    background-image: url(png2.png);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:-8vmax ;
+    padding: 0 3vmax;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s1r-title{
+    width: 100%;
+    margin-top: 1.5vmax;
+    font: 600 1vmax serif;
+}
+.s1r-input{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 2vmax;
+    margin-top: 20vmax;
+
+    padding: 2vmax 0.5vmax 2vmax 3vmax;
+
+
+}
+
+
